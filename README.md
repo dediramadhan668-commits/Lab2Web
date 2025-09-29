@@ -45,8 +45,9 @@ ketika kode tersebut di eksekusi terdapat perubahan seperti gambar di bawah ini:
 
 3.Tahap ketiga (Menambahkan Inline CSS)
 Pada tahap tiga ini kita mengubah warna text pada tag <p> (Paragraf) di VScode, kita memasukan kode di dalam tag <p> seperti ini agar tampilannya berubah:
+```
 <p style="text-align: center; color: #ccd8e4;">
-
+```
 setelah di masukan lalu save dan refresh website kalian hasilnya seperti gambar di bawah ini:
 <img width="1323" height="653" alt="image" src="https://github.com/user-attachments/assets/6d7fc523-9807-4af2-a657-4083c9618891" />
 
