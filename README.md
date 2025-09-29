@@ -1,4 +1,7 @@
 # Lab2Web
+# Nama : Dedi Ramadhan
+# Kelas : TI.24.A1
+# NIM : 312410171
 Praktikum 2 CSS Dasar
 
 1.Tahap awal (Membuat Dokumen HTML)
