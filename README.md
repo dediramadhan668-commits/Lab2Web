@@ -144,11 +144,13 @@ h1 {} berlaku buat semua tag <h1> yang ada di halaman.
 
 #intro h1 {} khusus buat <h1> yang ada di dalam elemen dengan id intro.
 Jadi kalau ada aturan bentrok, CSS yang lebih spesifik (#intro h1) yang bakal dipakai.
+```
 
 3. Kalau ada Internal, Eksternal, dan Inline di elemen yang sama, mana yang menang?
 Urutannya gini: Inline paling kuat, lalu Internal, terakhir Eksternal.
-```
+
 Contoh:
+
 ```
 <p style="color:red;">Teks ini merah</p>
 ```
