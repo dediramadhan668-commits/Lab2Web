@@ -17,7 +17,7 @@ Setelah memasukan kode tersebut ada perubahan di website nya yaitu seperti gamba
 
 2.Tahap kedua (Mendeklarasikan CSS Internal)
 Lalu ditahap ini kita akan menambahkan css agar website nya tidak polos atau seperti kerangka saja, kita tambahkan kode berikut dan lihat hasilnya pada gambar:
-
+```
 <head>
 <title>CSS Dasar</title>
 <style>
@@ -39,6 +39,7 @@ color:#6d6a6b;
 }
 </style>
 </head>
+```
 ketika kode tersebut di eksekusi terdapat perubahan seperti gambar di bawah ini:
 <img width="1362" height="691" alt="image" src="https://github.com/user-attachments/assets/7e6a6d50-b7f6-4729-8339-59cf9d7bf746" />
 
