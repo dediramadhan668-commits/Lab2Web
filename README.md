@@ -53,6 +53,7 @@ setelah di masukan lalu save dan refresh website kalian hasilnya seperti gambar 
 
 4.Tahap keempat (Membuat CSS Eksternal)
 Disini kita akan membuat CSS eksternal dengan cara menambahkan file baru dengan nama "style_eksternal.css" setelah di buat lalu masukan kode:
+```
 nav {
 background: #20A759;
 color:#fff;
@@ -67,14 +68,18 @@ nav .active,
 nav a:hover {
 background: #0B6B3A;
 }
+```
 reminder kalian harus masukanpada bagiann <head>:
+```
 <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+```
 
 Lalu hasilnya seperti di bawah dimana yang dari awal seperti kerangka pelan pelan mulai berkembang.
 <img width="1365" height="698" alt="image" src="https://github.com/user-attachments/assets/ccf64722-8ce7-4e64-b4a7-8be4d23e5bfd" />
 
 5.Tahap kelima (Menambahkan CSS Selector)
 Sekarang kita coba tambahkan CSS Selector dengan ID dan Class. Buka file style_eksternal.css, lalu sisipkan kode berikut:
+```
 /* ID Selector */
 #intro {
 background: #418fb1;
@@ -99,7 +104,9 @@ text-decoration: none;
 .btn-primary {
 background: #E42A42;
 }
+```
 Setelah kalian memasukan kode tersebut dalam style css kalian, lalu refresh dan tampilan nya akan berubah seperti ini
+
 <img width="1366" height="655" alt="image" src="https://github.com/user-attachments/assets/db610f67-93b9-4d79-8f13-87ed2398ec13" />
 
 
@@ -119,13 +126,13 @@ Jawaban Pertanyaan dan Tugas
 1. Eksperimen CSS
 Di bagian ini kita diminta coba-coba ganti properti CSS. Misalnya ubah warna teks, ukuran huruf, atau cara paragraf diratakan. Tujuannya biar kita terbiasa mainin property CSS.
 Contoh:
-
+```
 p {
   font-size: 18px;
   color: darkgreen;
   text-align: justify;
 }
-
+```
 Kalau ini dijalankan, paragraf bakal tampil lebih besar, warnanya hijau, dan teksnya rata kiri-kanan.
 
 2. Bedanya h1 {} sama #intro h1 {}
@@ -138,18 +145,23 @@ Jadi kalau ada aturan bentrok, CSS yang lebih spesifik (#intro h1) yang bakal di
 3. Kalau ada Internal, Eksternal, dan Inline di elemen yang sama, mana yang menang?
 Urutannya gini: Inline paling kuat, lalu Internal, terakhir Eksternal.
 Contoh:
-
+```
 <p style="color:red;">Teks ini merah</p>
+```
 Walaupun di internal atau eksternal warnanya di-set biru, browser tetep nurut ke inline, jadi teksnya merah.
 
 4. Kalau elemen punya ID dan Class, mana yang kepake?
 ID selalu lebih kuat dibanding Class. Kalau dua-duanya punya aturan berbeda, browser bakal nurut sama ID.
 Contoh:
+```
 html:
 <p id="paragraf-1" class="text-paragraf">Halo</p>
+```
+```
 css:
 .text-paragraf { color: blue; }
 #paragraf-1 { color: red; }
+```
 Hasilnya teks warna merah, karena ID lebih spesifik daripada Class.
 
 
