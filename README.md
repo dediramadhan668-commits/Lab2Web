@@ -4,7 +4,7 @@ Praktikum 2 CSS Dasar
 Disini kita membuat Dokumen HTML agar website ini terbentuk kerangka nya dan nanti akan di isi dengan css, setelah itu lalu masukan kode dalam editor kode kalian seperti VSCode.
 Didalamnya seperti ini:
 
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -31,7 +31,7 @@ dan CSS.</p>
 <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
 </div>
 </body>
-</html>
+</html>.
 Setelah memasukan kode tersebut ada perubahan di website nya yaitu seperti gambar di bawah ini, tahap awal berarti sudah selesai dengan baik.
 <img width="550" height="129" alt="image" src="https://github.com/user-attachments/assets/1ced244e-2798-46b6-b923-e423d5e187ce" />
 
