@@ -136,7 +136,7 @@ p {
 Kalau ini dijalankan, paragraf bakal tampil lebih besar, warnanya hijau, dan teksnya rata kiri-kanan.
 
 2. Bedanya h1 {} sama #intro h1 {}
-
+```
 h1 {} berlaku buat semua tag <h1> yang ada di halaman.
 
 #intro h1 {} khusus buat <h1> yang ada di dalam elemen dengan id intro.
@@ -144,6 +144,7 @@ Jadi kalau ada aturan bentrok, CSS yang lebih spesifik (#intro h1) yang bakal di
 
 3. Kalau ada Internal, Eksternal, dan Inline di elemen yang sama, mana yang menang?
 Urutannya gini: Inline paling kuat, lalu Internal, terakhir Eksternal.
+```
 Contoh:
 ```
 <p style="color:red;">Teks ini merah</p>
